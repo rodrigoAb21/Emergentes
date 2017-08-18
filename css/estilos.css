@@ -8,95 +8,34 @@ body {
     background: #e6e6e6;
 }
 
-header {
-    
-    background: #D50000;
-    color: white;
-    width: 100%;
-    margin: auto;
+/******************************** HEADER ********************************/
+
+header{
+    margin-bottom: 75px;
 
 }
 
 header nav {
-    overflow: hidden;
-    padding-top: 7px;
+    background: #D50000;
 }
 
-header nav ul {
-    float: right;
-    list-style: none;
-}
 
-header nav ul li {
-    float: left;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    color: white;
-}
-
-header nav ul li a:hover {
-    background: #329df1;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-}
-
-.main {
-    background: #e6e6e6;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.articulo {
-    margin-bottom: 20px;
-    padding: 20px;
-    background: white;
-}
-
-#logo {
-    float: left;
-    padding: 10px 10%;
-}
-
-#logo a{
-    color: white;
-    font-size: x-large;
-}
-
-#logo a:hover{
-    text-decoration: none;
-    color: white;
-}
+/******************************** FOOTER ********************************/
 
 footer {
-    background: #000000;
+    background: #2C2D2F;
     color: white;
     clear: both;
-    padding: 10px 0;
+    margin-top: 20px;
     text-align: center;
 }
 
 footer a{
-    color: red;
+    color: #D50000;
 }
 
 footer a:hover{
-    color: white;
+    color: dodgerblue;
     text-decoration: none;
 }
-
-#contenido{
-    padding: 10%;
-}
-
-#carrusel{
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
 

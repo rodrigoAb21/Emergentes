@@ -13,22 +13,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 
-
 </head>
-<body>
-<header>
-    <b id="logo"><a href="index.html">INQUIFARMED</a></b>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contactenos.html">Contactenos</a></li>
-        </ul>
-    </nav>
-</header>
 
-<div class="container">
+<body>
+<?php include('header.php'); ?>
+
+<section class="container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -50,7 +40,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
+</section>
 
 <section class="container">
     <section class="articulo">
@@ -64,16 +54,9 @@
     <p></p>
 </div>
 </section>
-<footer>
- <p>Proyecto Tecnologia Emergentes I | <a href="https://www.uagrm.edu.bo">UAGRM</a></p>
 
+<?php include('footer.php'); ?>
 
-    <div>
-        Icons made by <a href="https://www.flaticon.com/authors/popcorns-arts" title="Icon Pond">Icon Pond</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-    </div>
-
-
-</footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.2.1.min.js"></script>
